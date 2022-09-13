@@ -95,7 +95,7 @@ class Uploader:
             self.status = True
             self.message = (
                 f"Title: {title}\n Link: https://youtu.be/{video_id}"
-                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@HxBots | [@oVo-HxBots](https://github.com/oVo-HxBots)**"
+                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@My_Test_Botz | [@My_Test_Botz](https://t.me/My_Test_Botz)**"
             )
         except Exception as e:
             log.error(e, exc_info=True)
